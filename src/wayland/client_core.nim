@@ -95,7 +95,7 @@ type WlProxy* = object # FIXME
 ##  might be events queued on the default queue. Those events should be
 ##  dispatched with \ref wl_display_dispatch_pending() or \ref
 ##  wl_display_dispatch_queue_pending() before flushing and blocking.
-type WlDisplay* = object # FIXME
+type WlDisplay = object # FIXME
 
 ##  \class wl_event_queue
 ##
